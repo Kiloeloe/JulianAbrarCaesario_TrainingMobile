@@ -1,4 +1,4 @@
-package com.example.julianabrarcaesario_trainingmobile;
+package com.example.julianabrarcaesario_trainingmobile.view;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;

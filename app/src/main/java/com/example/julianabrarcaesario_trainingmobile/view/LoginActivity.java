@@ -1,4 +1,4 @@
-package com.example.julianabrarcaesario_trainingmobile;
+package com.example.julianabrarcaesario_trainingmobile.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,6 +8,8 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import com.example.julianabrarcaesario_trainingmobile.R;
 
 public class LoginActivity extends AppCompatActivity {
 

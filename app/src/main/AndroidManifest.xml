@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.julianabrarcaesario_trainingmobile">
 
+
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -14,13 +16,16 @@
         android:theme="@style/Theme.JulianAbrarCaesario_TrainingMobile"
         tools:targetApi="31">
         <activity
-            android:name=".RegisterActivity"
+            android:name=".view.ContentActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".view.RegisterActivity"
             android:exported="false" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".view.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
